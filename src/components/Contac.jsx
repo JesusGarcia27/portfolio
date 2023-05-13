@@ -1,6 +1,5 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
-import { useForm } from "react-hook-form";
 
 const Contac = () => {
 
@@ -17,12 +16,9 @@ const Contac = () => {
       .then((res) => console.log(res.text))
       .catch((err) => console.log(err));
 
-      resetForm();
+    
   };
 
-  const resetForm = () => {
-    document.getElementById("contacForm").reset();
-  };
 
   return (
     <section className="text-white px-4 py-4 sm:max-w-[640px] mx-auto lg:max-w-[1024px] ">
@@ -68,7 +64,7 @@ const Contac = () => {
                 name="message"
               />
             </div>
-        <button className="border-[1px] border-white rounded-lg px-3 mt-10 py-2 hover:bg-violet-400/50 transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:shadow-violet-500/50 sm:text-2xl  " onClick={resetForm}>
+        <button className="border-[1px] border-white rounded-lg px-3 mt-10 py-2 hover:bg-violet-400/50 transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:shadow-violet-500/50 sm:text-2xl  ">
           {" "}
           Click here{" "}
         </button>

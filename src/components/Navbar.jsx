@@ -16,7 +16,7 @@ const Navbar = ({setIsDark}) => {
 
   return (
     <header className='flex justify-between py-4 px-2 text-white relative sm:p-4 sm:max-w-[640px] sm:mx-auto lg:max-w-[1024px] animate-slide-down z-50 dark:bg-white/90 mb-5'>
-      <img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] sm:mt-4 dark:bg-violet-950/90 dark:rounded-lg cursor-pointer ' src="/public/images/1.png" alt="/" />
+      <img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] sm:mt-4 dark:bg-violet-950/90 dark:rounded-lg cursor-pointer ' src="images/1.png" alt="/" />
       <i onClick={handleShowNav} className='bx bx-menu text-2xl text-center mt-3 cursor-pointer sm:hidden dark:text-black'></i>
       <i onClick={handleChangeTheme} className='bx bx-sun absolute right-12 mt-5 sm:mt-12 sm:right-[420px] cursor-pointer dark:text-black '></i>
 
