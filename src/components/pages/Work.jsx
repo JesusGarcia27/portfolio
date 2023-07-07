@@ -8,7 +8,7 @@ const Work = () => {
           <div className="flex justify-center">
             <img
               className="box-border h-40 w-40 p-2 text-4xl transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:text-violet-500/50 "
-              src="/public/images/ecommerce.png"
+              src="/images/ecommerce.png"
               alt=""
             />
           </div>
@@ -27,7 +27,7 @@ const Work = () => {
           <div className="flex justify-center">
             <img
               className="box-border h-40 w-40 p-2 text-4xl transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:text-violet-500/50"
-              src="/public/images/carrito.png"
+              src="/images/carrito.png"
               alt=""
             />
           </div>
@@ -46,7 +46,7 @@ const Work = () => {
           <div className="flex justify-center">
             <img
               className="box-border h-40 w-40 p-2 transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:text-violet-500/50"
-              src="/public/images/formulario.png"
+              src="/images/formulario.png"
               alt=""
             />
           </div>
@@ -64,7 +64,7 @@ const Work = () => {
           <div className="flex justify-center">
             <img
               className="box-border h-40 w-40 p-2 text-4xl transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:text-violet-500/50"
-              src="/public/images/clima.png"
+              src="/images/clima.png"
               alt=""
             />
           </div>
@@ -82,7 +82,7 @@ const Work = () => {
           <div className="flex justify-center">
             <img
               className="box-border h-40 w-40 p-2 text-4xl transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:text-violet-500/50"
-              src="/public/images/universo.png"
+              src="/images/universo.png"
               alt=""
             />
           </div>

@@ -51,7 +51,7 @@ const Header = () => {
         </p>
 
         <button className="p-2 bg-violet-600/40 rounded-lg px-3 mt-2 hover:bg-violet-400/50 transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none duration-300 hover:shadow-xl hover:shadow-violet-500/50 dark:text-white dark:bg-violet-950">
-          <a target="_blank" href="/public/cv/CV Jesus Garcia.pdf">
+          <a target="_blank" href="/cv/CVJesusGarcia.pdf">
             Click here CV
           </a>
         </button>
